@@ -34,8 +34,9 @@
 		"tape": "^4.8.0"
 	},
 	"scripts": {
-		"test": "env NODE_ENV=dev node test/node.js",
+		"test:node": "env NODE_ENV=dev node test/node.js",
 		"test:browser": "env NODE_ENV=dev browserify test/browser.js | chutney",
-		"prepublishOnly": "npm run test:node && npm run test:browser"
+		"test": "npm run test:node && npm run test:browser",
+		"prepublishOnly": "npm test"
 	}
 }
