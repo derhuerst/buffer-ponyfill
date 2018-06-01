@@ -1,0 +1,33 @@
+{
+	"name": "buffer-ponyfill",
+	"description": "Use the Node core buffer module, both in browsers and in Node.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"buffer",
+		"ponyfill",
+		"isomorphic",
+		"browser",
+		"node"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/buffer-ponyfill",
+	"repository": "derhuerst/buffer-ponyfill",
+	"bugs": "https://github.com/derhuerst/buffer-ponyfill/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "env NODE_ENV=dev node test/node.js",
+		"prepublishOnly": "npm run test"
+	}
+}
