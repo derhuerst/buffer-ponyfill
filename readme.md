@@ -1,6 +1,8 @@
 # buffer-ponyfill
 
-**Use the [Node core `buffer` module](https://nodejs.org/api/buffer.html), both in browsers and in Node.** Powered by the lovely [`feross/buffer`](https://github.com/feross/buffer). ❤️
+**Use the [Node core `buffer` module](https://nodejs.org/api/buffer.html), in Node, browsers and [react-native](https://facebook.github.io/react-native/).** Powered by the lovely [`feross/buffer`](https://github.com/feross/buffer). ❤️
+
+*Note*: If you're just building a web project, both [Browserify](http://browserify.org) and [Webpack](https://webpack.js.org/) will add shims automatically if you use `Buffer`, so in this case `buffer-ponyfill` is not necessary. This package can help you with [react-native](https://facebook.github.io/react-native/) though.
 
 [![npm version](https://img.shields.io/npm/v/buffer-ponyfill.svg)](https://www.npmjs.com/package/buffer-ponyfill)
 [![build status](https://api.travis-ci.org/derhuerst/buffer-ponyfill.svg?branch=master)](https://travis-ci.org/derhuerst/buffer-ponyfill)

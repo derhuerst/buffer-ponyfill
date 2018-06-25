@@ -1,9 +1,10 @@
 {
 	"name": "buffer-ponyfill",
-	"description": "Use the Node core buffer module, both in browsers and in Node.",
-	"version": "0.1.0",
+	"description": "Use the Node core buffer module in Node, browsers and react-native.",
+	"version": "0.1.1",
 	"main": "node.js",
 	"browser": "browser.js",
+	"react-native": "browser.js",
 	"files": [
 		"index.js",
 		"node.js",
@@ -14,7 +15,8 @@
 		"ponyfill",
 		"isomorphic",
 		"browser",
-		"node"
+		"node",
+		"react-native"
 	],
 	"author": "Jannis R <mail@jannisr.de>",
 	"homepage": "https://github.com/derhuerst/buffer-ponyfill",
